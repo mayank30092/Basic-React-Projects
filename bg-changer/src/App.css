@@ -1,0 +1,14 @@
+#root{
+  text-align: center;
+  align-items: center;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.btns button{
+  margin-left: 1vw;
+  border-radius: 15px;
+}

@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5vw;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+}
+
+#title{
+  width: 35vw;
+  height: 3vh;
+  border: none;
+  border-radius: 15px;
+  padding: 1rem;
+  font-size: 20px;
+  margin-bottom: 5vh;
+}
+
+#description{
+  width: 50vw;
+  height: 8vh;
+  border: none;
+  border-radius: 15px;
+  padding: 1rem;
+  font-size: 20px;
+  margin-bottom: 5vh;
+}
+
+.addbtn{
+  width: 30vw;
+  height: 7vh;
+  margin-bottom: 5vh;
+}
+
+.list{
+  width: 100vw;
+  height: 50vh;
+  padding-left: 5vw;
+  font-size: 20px;
+}
+
+#deletebtn,#editbtn{
+  width: 15vw;
+  height: 6vh;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+  margin-left: 1vw;
+}

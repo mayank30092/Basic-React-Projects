@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 30vw;
+}
+
+.input{
+  margin-top: 6vh;
+}
+
+.input input{
+  width: 40vw;
+  height: 4vh;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.add{
+  width: 15vw;
+  height: 6vh;
+  margin-left: 4vw;
+}
+
+.list{
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list li{
+  margin-bottom: 2vh;
+}

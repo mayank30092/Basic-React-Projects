@@ -1,0 +1,35 @@
+*{
+  background-color: rgb(53, 56, 56);
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#city {
+  border: none;
+  width: 35vw;
+  height: 5vh;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(29, 28, 28);
+  margin-right: 4vw;
+  text-align: center;
+}
+
+.input button{
+  width: 15vw;
+  height: 7vh;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+.data{
+  text-align: left;
+  margin-top: 5vh;
+  font-size: 17px;
+  padding-left: 25px;
+}
